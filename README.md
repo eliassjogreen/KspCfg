@@ -11,7 +11,7 @@ npm install kspcfg
 ### Import
 #### NodeJS: 
 ```
-var CfgKsp = require('CfgKsp');
+var KspCfg = require('kspcfg');
 ```
 #### Browser:
 ###### Requires you copy kspCfg.js to directory of website
