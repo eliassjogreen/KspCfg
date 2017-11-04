@@ -1,0 +1,33 @@
+{
+  "name": "kspcfg",
+  "version": "1.0.0",
+  "description": "A library for encoding and decoding ksp cfg strings and js objects",
+  "main": "kspCfg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliassjogreen/KspCfg.git"
+  },
+  "keywords": [
+    "kerbal",
+    "space",
+    "program",
+    "cfg",
+    "ksp",
+    "encode",
+    "decode",
+    "game",
+    "computer",
+    "games",
+    "video",
+    "games"
+  ],
+  "author": "Elias Sjögreen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliassjogreen/KspCfg/issues"
+  },
+  "homepage": "https://github.com/eliassjogreen/KspCfg#readme"
+}
