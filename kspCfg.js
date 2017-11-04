@@ -51,7 +51,9 @@
                     } else {
                         tmpstr += '"' + arr[i].split(' = ')[1] + '"';
                     }
-                    tmpstr += ',';
+                    if (arr[i+1] !== '}') {
+                      tmpstr += ',';
+                    }
                     jsonstring += tmpstr;
                 }
             }
