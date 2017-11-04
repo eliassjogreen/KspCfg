@@ -11,7 +11,7 @@ npm install kspcfg
 ### Import
 #### NodeJS: 
 ```
-var KspCfg = require('kspcfg');
+var kspcfg = require('kspcfg');
 ```
 #### Browser:
 ###### Requires you copy kspCfg.js to directory of website
@@ -33,7 +33,7 @@ let Example = {
   }
 }
 
-console.log(KspCfg.encode(Example));
+console.log(kspcfg.encode(Example));
 
 // This should in theory print the following in the console
 // PART
@@ -56,7 +56,7 @@ let Example = {
   }
 }
 
-console.log(KspCfg.decode(KspCfg.encode(Example)));
+console.log(kspcfg.decode(kspcfg.encode(Example)));
 
 // This should in theory print the following in the console
 // { PART: { name: 'Example part', module: 'Part', autor: 'eliassjogreen', scale: 100 } }
