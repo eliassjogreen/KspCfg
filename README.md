@@ -12,6 +12,8 @@ var CfgKsp = require('CfgKsp');
 ###### Requires you copy kspCfg.js to directory of website
 ```
 <script src="kspCfg.js"></script>
+<!-- Or -->
+<script src="node_modules/kspcfg/kspCfg.js"></script>
 ```
 
 ### Actual usage
