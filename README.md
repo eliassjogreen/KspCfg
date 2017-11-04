@@ -13,3 +13,43 @@ var CfgKsp = require('CfgKsp');
 ```
 <script src="kspCfg.js"></script>
 ```
+
+### Actual usage
+#### Encoding a js object:
+```
+let Example = {
+  PART: {
+    name: "Example part",
+    module: "Part",
+    autor: "eliassjogreen",
+    scale: 100
+  }
+}
+
+console.log(KspCfg.encode(Example));
+
+// This should in theory print the following in the console
+// PART
+// {
+// name = Example part
+// module = Part
+// autor = eliassjogreen
+// scale = 100
+// }
+```
+
+#### Decoding a ksp cfg string to a js object:
+```
+let Example = {
+  PART: {
+    name: "Example part",
+    module: "Part",
+    autor: "eliassjogreen",
+    scale: 100
+  }
+}
+
+console.log(KspCfg.decode(KspCfg.encode(Example)));
+// This should in theory print the following in the console
+// { PART: { name: 'Example part', module: 'Part', autor: 'eliassjogreen', scale: 100 } }
+```
