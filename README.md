@@ -50,6 +50,7 @@ let Example = {
 }
 
 console.log(KspCfg.decode(KspCfg.encode(Example)));
+
 // This should in theory print the following in the console
 // { PART: { name: 'Example part', module: 'Part', autor: 'eliassjogreen', scale: 100 } }
 ```
